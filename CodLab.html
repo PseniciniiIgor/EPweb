@@ -1,65 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ro">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CodLab</title>
     <link rel="stylesheet" href="CodLab.CSS">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
+    <header calss="container">
         <div class="contacts">
-            <span class="phone">
-                <img src="phone-icon.png" alt="Phone Icon"> 060 512 707</span>
-            <span class="email">
-                <img src="email-icon.png" alt="Email Icon"> inscrieri@codlab.md</span>
-            <span class="work-day">
-                <p> Luni-Sâmbătă, 09:00-20:00</p>
-            </span>
+            <p> 📞 060 512 707 · ✉ inscrieri@codlab.md </p>
+            <p> Luni-Sâmbătă, 09:00-20:00</p>
         </div>
-        <div class="logo">
-            <img src="logo.png" alt="CodLab Logo">
-            <h1>CodLab</h1>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="Acasă.html">Acasă</a></li>
+        <nav class="navigation container">
+            <h1 class="logo-text">💻Cod<span class="logo-text2">Lab</span></h1>
+            <ul class="nav-bar-ul">
+                <li><a href="Acast.html" class="active">Acasă</a></li>
                 <li><a href="Cursuri.html">Cursuri</a></li>
                 <li><a href="Orar.html">Orar</a></li>
                 <li><a href="Mentori.html">Mentori</a></li>
                 <li><a href="Contact.html">Contact</a></li>
-                <li><a href="Lecție de probă.html">Lecție de probă</a></li>
+                <li><a href="Lectie de proba.html" class="btn-lectie-proba">Lecție de probă</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section class="Anunț-pricipal">
             <div class="Anunț">
-                <div clasa="partea-cu-poza">
-                    <div class="skidca">
-                        <h3>-25%</h3>
-                        <p> până vineri</p>
+                <div class="partea-cu-poza">
+                    <div class="pozitia-reducere">
+                        <div class="cerc-alb">
+                            <div class="reducere">
+                                <h3>-25%</h3>
+                                <p>până vineri</p>
+                            </div>
+                        </div>
                     </div>
-                    <img src="poza-principală.png" alt="poză">
+                    <img src="Imagine-hero.png" alt="poză" class="imagine-hero">
                     <div class="proiect-final">
-                        <img src="raheta.png" alt="rahetă">
-                        <h6>Proiectul final</h6>
-                        <p>Pus online pe GitHub</p>
+                        <div class="racheta">
+                            <p>🚀</p>
+                        </div>
+                        <div>
+                            <p class="ingrosare">Proiectul final</p>
+                            <p class="putin-sur">Pus online pe GitHub</p>
+                        </div>
                     </div>
                 </div>
                 <div class="Textul-anunțului">
                     <div class="grupe">
-                        <p>Grupe noi din 3 noiembrie</p>
+                        <p class="grnoi3">Grupe noi din 3 noiembrie</p>
                     </div>
-                    <h2>Învață să programezi de la zero</h2>
-                    <p>Cursuri practice de web, Python și JavaScript în
+                    <p class="invsp">Învață să</p> <p class="programezi">programezi</p><p class="invsp"> de la zero</p>
+                    <p class="textmult">Cursuri practice de web, Python și JavaScript în
                         grupe de maximum 10 persoane. Construiești
                         proiecte reale, nu doar teorie.
                     </p>
                     <div class="butoane-de-înscriere">
-                        <a href="Alege-un-curs">Alege un curs</a>
+                        <a href="Alege-un-curs.html" class="btn-curs">Alege un curs</a>
+                        <a href="Vezi-orarul.html" class="btn-orar">Vezi orarul</a>
                     </div>
                     <ul class="lista-datelor">
                         <li class="absolvenți">
@@ -76,13 +85,9 @@
                         </li>
                     </ul>
                 </div>
-        </section>
-        <section class="Mai-multă-practică">
-            <div>
-                <img src="comentarii" alt="comentarii">
             </div>
-            <p>Cum învățăm</p>
         </section>
+        
     </main>
     <footer>
 
