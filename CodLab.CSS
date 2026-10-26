@@ -309,3 +309,129 @@ width: 40px;
     margin: 0;
 }
 
+.sectiune-practica {
+    max-width: 960px;
+    margin: 80px auto;
+    padding: 50px 60px;
+    background-color: #ffffff;
+    border-radius: 24px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.04);
+    border: 1px solid #E5E7EB;
+    position: relative;
+}
+
+.continut-practica {
+    text-align: center;
+    position: relative;
+}
+
+.icon-chat-container {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    width: 58px;
+    height: 58px;
+    background-color: #059669;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(0, 168, 89, 0.3);
+}
+
+.icon-chat {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.eticheta-mica {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #4338CA;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+}
+
+.sectiune-practica h2 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #0D0E22;
+    margin-bottom: 12px;
+    
+}
+
+.sectiune-practica {
+    max-width: 960px;
+    margin: 80px auto;
+    padding: 40px 0;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    position: relative;
+}
+
+.grid-pasi {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    text-align: left;
+}
+
+.card-pas {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    border-top: 2px solid #4338CA;
+    padding-top: 20px;
+}
+
+.numar-pas {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    color: #D1D5DB;
+}
+
+.icon-pas {
+    font-size: 24px;
+}
+
+.card-pas h3 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #0D0E22;
+    margin-bottom: 8px;
+}
+
+.card-pas p {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #6B7280;
+    margin: 0;
+}
+
+.subtitlu-practica {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #6B7280;
+    margin-bottom: 64px;
+}
+
+.header-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    border-top: 4px solid #4338CA;
+    padding-top: 32px;
+}
