@@ -436,3 +436,165 @@ width: 40px;
     padding-top: 32px;
 }
 
+.sectiune-cursuri {
+    max-width: 960px;
+    margin: 80px auto;
+    padding: 40px 0;
+    background-color: #F7F7FC;
+}
+
+.continut-cursuri {
+    text-align: center;
+}
+
+.eticheta-mica {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #4338CA;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+}
+
+.sectiune-cursuri h2 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #0D0E22;
+    margin-bottom: 12px;
+}
+
+.subtitlu-cursuri {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #6B7280;
+    margin-bottom: 50px;
+}
+
+.grid-cursuri {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+    text-align: left;
+    padding: 0 20px;
+}
+
+.card-curs {
+    background-color: #ffffff;
+    border-radius: 16px;
+    border: 1px solid #E5E7EB;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+}
+
+.imagine-card {
+    position: relative;
+    width: 45%;
+    min-height: 100%;
+}
+
+.imagine-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.badge {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 50px;
+}
+
+.badge.top,
+.badge.nou,
+.badge.reducere {
+    background-color: #00A859;
+}
+
+.corp-card {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.stele {
+    color: #F59E0B;
+    font-size: 13px;
+    margin-bottom: 6px;
+    letter-spacing: 2px;
+}
+
+.stea-plina {
+    color: #F59E0B;
+}
+
+.stea-goala {
+    color: #D1D5DB;
+    color: transparent;
+    -webkit-text-stroke: 1px #F59E0B;
+}
+
+.card-curs h3 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #0D0E22;
+    margin-bottom: 6px;
+}
+
+.card-curs p {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    line-height: 1.4;
+    color: #6B7280;
+    margin-bottom: 16px;
+}
+
+.footer-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: auto;
+}
+
+.pret {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #4338CA;
+}
+
+.pret-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.pret-vechi {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    color: #9CA3AF;
+    text-decoration: line-through;
+}
+
+.link-detalii {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #4338CA;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.link-detalii:hover {
+    text-decoration: underline;
+}
