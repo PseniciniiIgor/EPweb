@@ -813,3 +813,13 @@ width: 40px;
     padding: 16px 20px;
     align-items: center;
 }
+
+.tabel-rand {
+    display: grid;
+    grid-template-columns: 80px repeat(6, 1fr);
+    padding: 8px 20px;
+    align-items: center;
+    border-bottom: 1px solid #F3F4F6;
+    height: 64px;
+    box-sizing: border-box;
+}
