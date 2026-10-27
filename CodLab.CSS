@@ -604,3 +604,15 @@ width: 40px;
     margin: 80px auto;
     padding: 40px 0;
 }
+.continut-marturii {
+    text-align: center;
+}
+
+.eticheta-mica {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #4338CA;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+}
