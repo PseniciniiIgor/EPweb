@@ -793,3 +793,23 @@ width: 40px;
     color: #6B7280;
     margin-bottom: 40px;
 }
+
+.tabel-orar {
+    width: 880px;
+    margin: 0 auto;
+    border-radius: 16px;
+    border: 1px solid #E5E7EB;
+    overflow: hidden;
+}
+
+.tabel-header {
+    display: grid;
+    grid-template-columns: 80px repeat(6, 1fr);
+    background-color: #0D0E22;
+    color: #ffffff;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 16px 20px;
+    align-items: center;
+}
