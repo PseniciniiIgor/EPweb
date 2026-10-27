@@ -710,3 +710,16 @@ width: 40px;
     padding: 40px 0;
     background-color: #F7F7FC;
 }
+
+.continut-galerie {
+    text-align: center;
+}
+
+.eticheta-mica {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #4338CA;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+}
