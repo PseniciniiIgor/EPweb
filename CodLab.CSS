@@ -858,3 +858,14 @@ width: 40px;
     margin: 0 auto;
     box-sizing: border-box;
 }
+
+.linie-verticala {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 4px;
+    height: 48px;
+    background-color: #4338CA;
+    border-radius: 0;
+}
+
