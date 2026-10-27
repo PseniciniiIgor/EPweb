@@ -888,3 +888,35 @@ width: 40px;
     padding: 48px 0;
     width: 100%;
 }
+
+.continut-abonare {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-abonare h3 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 8px;
+}
+
+.text-abonare p {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #E0E7FF;
+    margin: 0;
+}
+
+.formular-abonare {
+    display: flex;
+    background-color: #ffffff;
+    padding: 6px;
+    border-radius: 12px;
+    width: 440px;
+}
