@@ -869,3 +869,10 @@ width: 40px;
     border-radius: 0;
 }
 
+.nume-curs {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: #0D0E22;
+    text-align: center;
+}
