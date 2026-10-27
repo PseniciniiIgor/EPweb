@@ -642,3 +642,9 @@ width: 40px;
     justify-content: space-between;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
 }
+
+.stele {
+    font-size: 14px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
