@@ -9,7 +9,11 @@ body {
     max-width: 960px;
     margin: 0 auto;
 }
-
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
 .contacts {
     display: flex;
     gap: 20px;
@@ -35,7 +39,9 @@ body {
     height: 76;
     top: 36px;
     background-color: #ffffff;
-
+    position: sticky;
+    z-index: 1000;
+    top: 0;
 }
 
 .logo-text {
@@ -70,14 +76,14 @@ body {
 
 }
 
-.active {
-text-decoration: underline 2px solid #1D4ED8 !important;
-text-underline-offset: 10px; 
-color: #1D4ED8 !important;
+.nav-bar-ul a:hover {
+    color: #4338CA;
+    border-bottom: 3px solid #4338CA;
+    padding-bottom: 3px;
 }
 
 .btn-lectie-proba {
-    background-color: #4338CA;
+   background-color: #4338CA;
     color: #ffffff !important;
     text-decoration: none;
     font-family: 'Inter', sans-serif;
@@ -875,4 +881,10 @@ width: 40px;
     font-weight: 700;
     color: #0D0E22;
     text-align: center;
+}
+
+.sectiune-abonare {
+    background-color: #4338CA;
+    padding: 48px 0;
+    width: 100%;
 }
