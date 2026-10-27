@@ -760,3 +760,36 @@ width: 40px;
     object-fit: cover;
     border-radius: 16px;
 }
+
+.sectiune-orar {
+    max-width: 960px;
+    margin: 80px auto;
+    padding: 40px 0;
+}
+.continut-orar {
+    text-align: center;
+}
+
+.eticheta-mica {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #4338CA;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+}
+
+.sectiune-orar h2 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #0D0E22;
+    margin-bottom: 12px;
+}
+
+.subtitlu-orar {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #6B7280;
+    margin-bottom: 40px;
+}
