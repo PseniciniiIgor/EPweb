@@ -599,3 +599,8 @@ width: 40px;
     text-decoration: underline;
 }
 
+.sectiune-marturii {
+    max-width: 960px;
+    margin: 80px auto;
+    padding: 40px 0;
+}
