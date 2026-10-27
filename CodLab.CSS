@@ -677,3 +677,16 @@ width: 40px;
     font-weight: 700;
     font-size: 14px;
 }
+
+.avatar.am {
+    background-color: #4338CA;
+}
+
+.avatar.cl {
+    background-color: #00A859;
+}
+
+.avatar.sb {
+    background-color: #0D0E22;
+}
+
