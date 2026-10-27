@@ -315,7 +315,6 @@ width: 40px;
     padding: 50px 60px;
     background-color: #ffffff;
     border-radius: 24px;
-    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.04);
     border: 1px solid #E5E7EB;
     position: relative;
 }
@@ -336,7 +335,6 @@ width: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 4px 12px rgba(0, 168, 89, 0.3);
 }
 
 .icon-chat {
@@ -486,7 +484,6 @@ width: 40px;
     overflow: hidden;
     display: flex;
     flex-direction: row;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
 }
 
 .imagine-card {
@@ -640,7 +637,6 @@ width: 40px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
 }
 
 .stele {
@@ -749,6 +745,18 @@ width: 40px;
 .coloana-dreapta img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.coloana-centru {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.coloana-centru img {
+    width: 100%;
     object-fit: cover;
     border-radius: 16px;
 }
