@@ -60,7 +60,8 @@ header{
     display: flex;
     align-items: center;
     list-style: none;
-    gap: 32px;
+    margin-left: 200px;
+    gap: 30px;
 }
 
 .nav-bar-ul a {
@@ -73,7 +74,6 @@ header{
     font-size: 15px;
     line-height: 100%;
     letter-spacing: 0%;
-
 }
 
 .nav-bar-ul a:hover {
@@ -97,6 +97,13 @@ header{
 .btn-lectie-proba:hover {
     background-color: #ffffff;
     color: #4338CA !important;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    display: inline-block;
 }
 
 .Anunț {
@@ -107,7 +114,7 @@ header{
 }
 
 .partea-cu-poza {
-position: relative;
+    position: relative;
     width: 420px;
     height: 400px;
     flex-shrink: 0;
