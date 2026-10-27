@@ -731,3 +731,9 @@ width: 40px;
     color: #0D0E22;
     margin-bottom: 50px;
 }
+
+.grid-galerie {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
