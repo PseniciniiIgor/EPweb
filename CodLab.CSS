@@ -835,3 +835,13 @@ width: 40px;
     box-sizing: border-box;
 }
 
+.ora {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #0D0E22;
+}
+
+.celula-goala {
+    display: block;
+}
