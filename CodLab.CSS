@@ -979,3 +979,16 @@ width: 40px;
     font-weight: 700;
     margin-bottom: 16px;
 }
+
+.logo-verde {
+    color: #00A859;
+}
+
+.footer-descriere {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #9CA3AF;
+    max-width: 500px;
+    line-height: 1.5;
+    margin-bottom: 32px;
+}
