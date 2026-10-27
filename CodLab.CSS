@@ -723,3 +723,11 @@ width: 40px;
     letter-spacing: 1px;
     margin-bottom: 12px;
 }
+
+.sectiune-galerie h2 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #0D0E22;
+    margin-bottom: 50px;
+}
