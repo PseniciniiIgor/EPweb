@@ -631,3 +631,14 @@ width: 40px;
     gap: 32px;
     text-align: left;
 }
+
+.card-marturie {
+    background-color: #ffffff;
+    border-radius: 16px;
+    border: 1px solid #E5E7EB;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+}
