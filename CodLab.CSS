@@ -920,3 +920,18 @@ width: 40px;
     border-radius: 12px;
     width: 440px;
 }
+
+.input-email {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 0 16px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #0D0E22;
+    background: transparent;
+}
+
+.input-email::placeholder {
+    color: #9CA3AF;
+}
