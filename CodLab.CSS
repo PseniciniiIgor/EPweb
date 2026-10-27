@@ -992,3 +992,23 @@ width: 40px;
     line-height: 1.5;
     margin-bottom: 32px;
 }
+
+.footer-meniu {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+    padding: 0;
+    margin: 0 0 32px 0;
+}
+
+.footer-meniu a {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.footer-meniu a:hover {
+    color: #00A859;
+}
